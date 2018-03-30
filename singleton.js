@@ -1,5 +1,5 @@
 class Database {
-  _instance = null;
+  static _instance = null;
 
   static getInstance() {
     if (!this.instance) {
